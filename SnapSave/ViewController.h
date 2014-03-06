@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    UITextField *usernameField;
+    UITextField *passwordField;
+    UIButton *loginButton;
+    NSMutableData *data;
+}
 
 @end

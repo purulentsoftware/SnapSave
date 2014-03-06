@@ -22,6 +22,12 @@
 		83666D4D184311A300695261 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83666D2C184311A300695261 /* UIKit.framework */; };
 		83666D55184311A300695261 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83666D53184311A300695261 /* InfoPlist.strings */; };
 		83666D57184311A300695261 /* SnapSaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83666D56184311A300695261 /* SnapSaveTests.m */; };
+		83666D611843120700695261 /* untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 83666D601843120700695261 /* untitled.png */; };
+		83666D641843DC8900695261 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 83666D631843DC8900695261 /* User.m */; };
+		83666D681843DE6500695261 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83666D671843DE6500695261 /* ActivityViewController.m */; };
+		83666D6B1843E17300695261 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 83666D6A1843E17300695261 /* Post.m */; };
+		83AF7AEA18440DBD00D4C48A /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AF7AE918440DBD00D4C48A /* Base64.m */; };
+		83BF7B4B1843FC7500834E6A /* SHWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BF7B4A1843FC7500834E6A /* SHWebService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,18 @@
 		83666D52184311A300695261 /* SnapSaveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapSaveTests-Info.plist"; sourceTree = "<group>"; };
 		83666D54184311A300695261 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83666D56184311A300695261 /* SnapSaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapSaveTests.m; sourceTree = "<group>"; };
+		83666D601843120700695261 /* untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untitled.png; sourceTree = "<group>"; };
+		83666D621843DC8900695261 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		83666D631843DC8900695261 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		83666D651843DCBA00695261 /* JSONDictionaryExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONDictionaryExtensions.h; sourceTree = "<group>"; };
+		83666D661843DE6500695261 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		83666D671843DE6500695261 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		83666D691843E17300695261 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		83666D6A1843E17300695261 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		83AF7AE818440DBD00D4C48A /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		83AF7AE918440DBD00D4C48A /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		83BF7B491843FC7500834E6A /* SHWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHWebService.h; sourceTree = "<group>"; };
+		83BF7B4A1843FC7500834E6A /* SHWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWebService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +132,9 @@
 		83666D2E184311A300695261 /* SnapSave */ = {
 			isa = PBXGroup;
 			children = (
+				83666D651843DCBA00695261 /* JSONDictionaryExtensions.h */,
+				83AF7AE818440DBD00D4C48A /* Base64.h */,
+				83AF7AE918440DBD00D4C48A /* Base64.m */,
 				83666D37184311A300695261 /* AppDelegate.h */,
 				83666D38184311A300695261 /* AppDelegate.m */,
 				83666D3A184311A300695261 /* Main_iPhone.storyboard */,
@@ -121,7 +142,16 @@
 				83666D40184311A300695261 /* ViewController.h */,
 				83666D41184311A300695261 /* ViewController.m */,
 				83666D43184311A300695261 /* Images.xcassets */,
+				83666D601843120700695261 /* untitled.png */,
+				83666D621843DC8900695261 /* User.h */,
+				83666D631843DC8900695261 /* User.m */,
 				83666D2F184311A300695261 /* Supporting Files */,
+				83666D661843DE6500695261 /* ActivityViewController.h */,
+				83666D671843DE6500695261 /* ActivityViewController.m */,
+				83666D691843E17300695261 /* Post.h */,
+				83666D6A1843E17300695261 /* Post.m */,
+				83BF7B491843FC7500834E6A /* SHWebService.h */,
+				83BF7B4A1843FC7500834E6A /* SHWebService.m */,
 			);
 			path = SnapSave;
 			sourceTree = "<group>";
@@ -202,6 +232,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Chris Mays";
 				TargetAttributes = {
+					83666D24184311A300695261 = {
+						DevelopmentTeam = NG9QU5D84A;
+					};
 					83666D48184311A300695261 = {
 						TestTargetID = 83666D24184311A300695261;
 					};
@@ -235,6 +268,7 @@
 				83666D44184311A300695261 /* Images.xcassets in Resources */,
 				83666D3C184311A300695261 /* Main_iPhone.storyboard in Resources */,
 				83666D33184311A300695261 /* InfoPlist.strings in Resources */,
+				83666D611843120700695261 /* untitled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AF7AEA18440DBD00D4C48A /* Base64.m in Sources */,
+				83666D641843DC8900695261 /* User.m in Sources */,
+				83666D6B1843E17300695261 /* Post.m in Sources */,
 				83666D42184311A300695261 /* ViewController.m in Sources */,
 				83666D39184311A300695261 /* AppDelegate.m in Sources */,
 				83666D35184311A300695261 /* main.m in Sources */,
+				83BF7B4B1843FC7500834E6A /* SHWebService.m in Sources */,
+				83666D681843DE6500695261 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,10 +431,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Purulent Software (NG9QU5D84A)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnapSave/SnapSave-Prefix.pch";
 				INFOPLIST_FILE = "SnapSave/SnapSave-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,10 +447,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Purulent Software (NG9QU5D84A)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnapSave/SnapSave-Prefix.pch";
 				INFOPLIST_FILE = "SnapSave/SnapSave-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +519,7 @@
 				83666D5C184311A300695261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83666D5D184311A300695261 /* Build configuration list for PBXNativeTarget "SnapSaveTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +528,7 @@
 				83666D5F184311A300695261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

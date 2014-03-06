@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    BOOL loggedin;
+    NSMutableArray *friendsArray;
+    NSString *username;
+    NSString *password;
+    NSMutableArray *statusesArray;
+}
+-(void)logedInWithUsername:(NSString *)usern withPassword:(NSString *)pass withFriends:(NSMutableArray *)friends;
+-(NSMutableArray *)getFriendsArray;
+-(NSString *)getUsername;
+-(NSString *)getPassword;
+-(void)setStatuses:(NSMutableArray *)stat;
+-(NSMutableArray *)getStatuses;
 @property (strong, nonatomic) UIWindow *window;
 
 @end
